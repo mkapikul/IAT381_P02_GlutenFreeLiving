@@ -1,0 +1,161 @@
+body {
+	font-family: Open Sans;
+	font-size: 16px; 
+	color:#4D5D66;
+}
+
+h1{
+	font-size: 1.4rem;
+	font-weight: normal;
+}
+
+h2{
+	font-size: 1rem;
+	font-weight: normal;
+	color: #16A085;
+}
+
+h2 a{
+	color: #16A085;
+	text-decoration: none;
+}
+
+h2 a:active{
+	color: #16A085;
+}
+
+h2 a:visited{
+	color: #16A085;
+}
+
+h2 a:hover{
+	color: #0c5a4b ;
+	text-decoration: none;
+}
+
+nav ul{
+	padding-left: 0rem;
+} 
+
+nav ul li{
+	display: inline;
+	padding-right: 1.5rem;
+}
+
+h3{
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+#moreDetails{
+	font-size: 0.75rem;
+	color: #3498DB;
+	text-decoration: none;
+}
+
+#moreDetails:visited{
+	color: #175782;
+}
+
+#moreDetails:active, #moreDetails:hover{
+	color: #F39C12;
+	text-decoration: underline;
+}
+
+p{
+	font-size: 0.75rem;
+}
+
+.productButton{
+	border:none;
+	background-color: #16A085;
+	padding: 0px 30px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	color: white;
+	text-shadow: rgba(0,0,0,.1) 0 1px 0;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.productButton:hover{
+	border: none;
+	background-color: #F39C12;
+	color: white;
+}
+
+#checkout{
+	background-color: #3498DB;
+}
+
+#checkout:hover{
+	border: none;
+	background-color: #F39C12;
+	color: white;
+}
+
+.mainNavigation{
+	border:1px solid #35595E;
+	background-color: white;
+	padding-left: 10px;
+	padding-top: 2px;
+	width:164px;
+	height: 66px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	color: #35595E;
+	text-shadow: rgba(0,0,0,.1) 0 1px 0;
+	font-size: 1.1rem;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: left;
+
+}
+
+.mainNavigation:hover{
+	border: none;
+	background-color: #F39C12;
+	color: white;
+}
+
+.mainNavigation:active{
+	border:none;
+	background-color: #F39C12;
+	color: white;
+}
+
+.mainNavigation:after {
+	clear: both;
+}
+
+.menuNavigation{
+	border:1px solid #35595E;
+	background-color: white;
+	width: 225px;
+	text-align: left;
+	padding: 10px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	text-shadow: rgba(0,0,0,.1) 0 1px 0;
+	color: #35595E;
+	font-size: 0.9rem;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.menuNavigation:hover{
+	border: none;
+	background-color: #F39C12;
+	color: white;
+}
+
+.menuNavigation:active{
+	border:none;
+	background-color: #F39C12;
+	color: white;
+}
+
+
