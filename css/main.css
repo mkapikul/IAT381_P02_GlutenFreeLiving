@@ -53,10 +53,9 @@ h3{
 	text-decoration: none;
 }
 
-#moreDetails:visited{
+/*#moreDetails:visited{
 	color: #175782;
-}
-
+}*/
 #moreDetails:active, #moreDetails:hover{
 	color: #F39C12;
 	text-decoration: underline;
@@ -74,7 +73,7 @@ p{
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 	color: white;
-	text-shadow: rgba(0,0,0,.1) 0 1px 0;
+	text-shadow: rgba(0,0,0,0.1) 0 1px 0;
 	text-decoration: none;
 	vertical-align: middle;
 }
@@ -165,6 +164,7 @@ form{
 form label{
 	display: block;
 	margin-top: 1rem;
+	padding-left: 0.25rem;
 }
 
 form input , form textarea {
