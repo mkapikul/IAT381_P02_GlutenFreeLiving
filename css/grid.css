@@ -1,0 +1,24 @@
+/*grid.css, defining layout grid for gluten free living site */
+
+[class*='col-'] {
+	float: left;
+	padding: 0;
+	/*text-align: center; */
+}
+
+.col-1of2 {
+	width: 50%;
+}
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-siziing: border-box;
+	box-sizing: border-box;
+} 
+
