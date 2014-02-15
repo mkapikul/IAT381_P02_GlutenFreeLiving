@@ -1,4 +1,10 @@
 /*grid.css, defining layout grid for gluten free living site */
+html, body {
+	margin: 0;
+	padding: 0;
+} /* Reset default margin and padding applied by browser - usually 8px. 
+	Comma between selector html and body means "OR" */
+
 
 [class*='col-'] {
 	float: left;
@@ -6,9 +12,11 @@
 	/*text-align: center; */
 }
 
-.col-1of2 {
-	width: 50%;
-}
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-siziing: border-box;
+	box-sizing: border-box;
+} 
 
 .grid:after {
 	content: "";
@@ -16,9 +24,102 @@
 	clear: both;
 }
 
-*, *:after, *:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-siziing: border-box;
-	box-sizing: border-box;
-} 
+.col-1of2 {
+	width: 50%;
+}
+
+.col-1of6 {
+	width: 16%;
+}
+
+/* iPad and other tablets using 1024x768px resolution - resize */
+
+@media (max-width: 768px) {
+	.col-1of6 {
+		width: 100%;
+	}
+
+	.navigation {
+		width: 100%;
+	}
+
+	.logo{
+		display: none;
+	}
+
+	nav a{
+		border-top: solid 1px #45C0BF;
+		text-align: center;
+		font-size: 1rem;
+		color: #45C0BF;
+		text-decoration: none;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+	}
+
+	.account {
+		display: none;
+	}
+
+	#signUp , #signUp a{
+		margin: 0;
+		padding: 0;
+		width: 49.4%;
+		text-align: center;
+		display: inline-block;
+		/*background: #F39C12;
+		color: white;*/
+		color: #F39C12;
+		text-decoration: none;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+	}
+
+	#logIn , #logIn a{
+		margin: 0;
+		padding: 0;
+		width: 50%;
+		text-align: center;
+		display: inline-block;
+		/*background: #F39C12;
+		color: white;*/
+		color: #F39C12;
+		text-decoration: none;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+	}
+}
+
+@media (max-width: 664px) {
+	#signUp , #signUp a{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+		/*background: #F39C12;
+		color: white;*/
+		color: #F39C12;
+		text-decoration: none;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+	}
+
+	#logIn , #logIn a{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+		/*background: #F39C12;
+		color: white;*/
+		color: #F39C12;
+		text-decoration: none;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+	}
+}
+
+
+
 
