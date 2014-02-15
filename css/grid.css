@@ -63,7 +63,7 @@ html, body {
 	}
 
 	button{
-		font-size: 1rem;
+		font-size: .9rem;
 		font-weight: normal;
 		margin: 0;
 		padding: 0;
@@ -152,6 +152,13 @@ html, body {
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
 	}
+
+
+	#footer #altnav{
+		width:100%;
+		float: left;
+		text-align: left;
+	}
 }
 
 /* mobile devices resolution - resize */
@@ -178,6 +185,7 @@ html, body {
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
 	}
+
 }
 
 
