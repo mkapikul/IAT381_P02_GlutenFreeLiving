@@ -49,6 +49,7 @@ html, body {
 
 	nav a{
 		border-top: solid 1px #45C0BF;
+		border-opacity: 0.7;
 		text-align: center;
 		font-size: 1rem;
 		color: #45C0BF;
@@ -61,64 +62,93 @@ html, body {
 		display: none;
 	}
 
-	#signUp , #signUp a{
+	button{
+		font-size: 1rem;
+		font-weight: normal;
 		margin: 0;
 		padding: 0;
-		width: 49.4%;
-		text-align: center;
-		display: inline-block;
-		/*background: #F39C12;
-		color: white;*/
-		color: #F39C12;
-		text-decoration: none;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
 	}
 
-	#logIn , #logIn a{
-		margin: 0;
-		padding: 0;
-		width: 50%;
-		text-align: center;
-		display: inline-block;
-		/*background: #F39C12;
-		color: white;*/
+
+	#signUp {
 		color: #F39C12;
+		width: 49.4%;
+		text-align: center;
 		text-decoration: none;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
+		display: inline-block;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		background-color: white;
+		border: none;
 	}
+
+	#signUp:hover{
+		background-color: #F39C12;
+		color: white;
+		-webkit-transition: all 0.15s ease;
+	  	transition: all 0.25s ease;
+	  
+	  	-webkit-user-select: none;
+	  	-moz-user-select: none;
+	  	-ms-user-select: none;
+	  	user-select: none;
+	  
+	  	-webkit-appearance: none;
+	  	-webkit-font-smoothing: antialiased;
+	  	text-rendering: optimizeLegibility;
+	}
+
+	#signUp:active {
+		-webkit-box-shadow: none;
+  		box-shadow: none;
+  		text-decoration: none;
+	}
+
+
+
+	#logIn {
+		color: #F39C12;
+		width: 49.4%;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		background-color: white;
+		border: none;
+	}
+
+	 #logIn:hover{
+		background-color: #F39C12;
+		color: white;
+		-webkit-transition: all 0.15s ease;
+	  	transition: all 0.25s ease;
+	  
+	  	-webkit-user-select: none;
+	  	-moz-user-select: none;
+	  	-ms-user-select: none;
+	  	user-select: none;
+	  
+	  	-webkit-appearance: none;
+	  	-webkit-font-smoothing: antialiased;
+	  	text-rendering: optimizeLegibility;
+	}
+
+
 }
 
 @media (max-width: 664px) {
 	#signUp {
-		margin: 0;
-		padding: 0;
 		width: 100%;
-		text-align: center;
-		display: inline-block;
 		border-bottom: solid 1px #F39C12 ;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
 
 	}
-	#signUp a{
-		/*background: #F39C12;
-		color: white;*/
-		color: #F39C12;
-		text-decoration: none;
-		
-	}
 
-	#logIn , #logIn a{
-		margin: 0;
-		padding: 0;
+	#logIn {
+
 		width: 100%;
-		text-align: center;
-		display: inline-block;
-		/*background: #F39C12;
-		color: white;*/
-		text-decoration: none;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
 	}
@@ -137,16 +167,16 @@ html, body {
 		padding-bottom: 0.3rem;
 	}
 
-	#signUp a{
+	#signUp{
 		font-size: .9rem;
-		padding-top: 0.3rem;
-		padding-bottom: 0.3rem;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
 	}
 
-	#logIn a{
+	#logIn{
 		font-size: .9rem;
-		padding-top: 0.3rem;
-		padding-bottom: 0.3rem;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
 	}
 }
 
