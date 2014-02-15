@@ -5,10 +5,39 @@ body {
 }
 
 h1{
-	font-size: 1.5rem;
+	font-size: 1.2rem;
+	font-weight: 800;
 	color: #67222C;
 	margin-top: 0.5rem;
-	font-weight: 800;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.NewArrivals{
+	min-height: 8rem;
+	padding: .8rem;
+	line-height: .5rem;
+	padding-bottom: 0;
+}
+
+.FeatProducts{
+	min-height: 8rem;
+	padding: .8rem;
+	line-height: .5rem;
+	padding-bottom: 0;
+}
+
+.FeatRecipes{
+	min-height: 8rem;
+	padding: .8rem;
+	line-height: .5rem;
+	padding-bottom: 0;
 }
 
 h2{
@@ -48,11 +77,6 @@ h2{
 	width: 75%;
 }
 
-.banner{
-	margin: 0;
-	padding: 0;
-}
-
 .account{
 	display: inline-block;
 	width: 100%;
@@ -74,6 +98,12 @@ h2{
 	padding-left: 0.3rem;
 	padding-right: 0.3rem;
 }
+
+.banner{
+	margin: 0;
+	padding: 0;
+}
+
 
 #signUp{
 	display: none;
@@ -139,55 +169,6 @@ nav a:active{
 }
 
 
-h2 a{
-	color: #16A085;
-	text-decoration: none;
-}
-
-h2 a:active{
-	color: #16A085;
-}
-
-h2 a:visited{
-	color: #16A085;
-}
-
-h2 a:hover{
-	color: #0c5a4b ;
-	text-decoration: none;
-}
-
-h3{
-	font-size: 0.8rem;
-	font-weight: bold;
-}
-
-p{
-	font-size: 0.75rem;
-}
-
-
-form{
-	font-size: 0.75rem;
-}
-
-form label{
-	display: block;
-	margin-top: 1rem;
-	padding-left: 0.25rem;
-}
-
-form input , form textarea {
-	display: block;
-	font-size: 0.75rem;
-	padding: 0.25rem;
-	border: 0.1rem solid #35595E;
-}
-
-form input:hover, form textarea:hover {
-	border-color: #54BA75;
-}
-
 #footer{
 	clear: both;
 	font-size: .8rem;
@@ -201,13 +182,14 @@ form input:hover, form textarea:hover {
 #footer a{
 	color: #c9c9c9;
 	text-decoration: none;
+	padding-right: 0.4rem;
 }
 
 #footer a:hover{
 	color: #366373;
 }
 
-#footer #altnav{
+#footer #footNav{
 	clear:both;
 	width: 50%;
 	float: right;
