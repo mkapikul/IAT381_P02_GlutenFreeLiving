@@ -91,18 +91,23 @@ html, body {
 }
 
 @media (max-width: 664px) {
-	#signUp , #signUp a{
+	#signUp {
 		margin: 0;
 		padding: 0;
 		width: 100%;
 		text-align: center;
 		display: inline-block;
+		border-bottom: solid 1px #F39C12 ;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+
+	}
+	#signUp a{
 		/*background: #F39C12;
 		color: white;*/
 		color: #F39C12;
 		text-decoration: none;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
+		
 	}
 
 	#logIn , #logIn a{
@@ -113,10 +118,35 @@ html, body {
 		display: inline-block;
 		/*background: #F39C12;
 		color: white;*/
-		color: #F39C12;
 		text-decoration: none;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
+	}
+}
+
+/* mobile devices resolution - resize */
+
+@media (max-width: 495px) {
+	.banner {
+		display: none;
+	}
+
+	nav a{
+		font-size: .9rem;
+		padding-top: 0.3rem;
+		padding-bottom: 0.3rem;
+	}
+
+	#signUp a{
+		font-size: .9rem;
+		padding-top: 0.3rem;
+		padding-bottom: 0.3rem;
+	}
+
+	#logIn a{
+		font-size: .9rem;
+		padding-top: 0.3rem;
+		padding-bottom: 0.3rem;
 	}
 }
 
