@@ -16,7 +16,7 @@ hr {
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-} /* Idea for styling borrowed from http://css-tricks.com/simple-styles-for-horizontal-rules */
+} /* Idea for styling borrowed from "http://css-tricks.com/simple-styles-for-horizontal-rules" */
 
 
 .NewArrivals{
@@ -71,10 +71,6 @@ h2{
 	width: 24%;
 }
 
-#altLogo{
-	display: none;
-}
-
 .navigation{
 	display: inline-block;
 	vertical-align: bottom;
@@ -108,6 +104,9 @@ h2{
 	padding: 0;
 }
 
+#altLogo{
+	display: none;
+}
 
 #signUp{
 	display: none;
@@ -171,6 +170,35 @@ nav a:active{
 #cart_Item:hover, #cart_Item:focus{
 	color: white;
 }
+
+
+/* Top portion of the page ends here - this includes top navigation menu, logo and banner that follows 
+   Left navigation and main content starts here */
+
+.leftNav{
+	margin: 0 auto;
+	width: 25%;
+	padding-top: 2rem;
+	padding-left: 0.8rem;
+	border: 1px solid #eee;
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.pageContent{
+	margin: 0 auto;
+	width: 74%;
+	padding-top: 2rem;
+	padding-left: 0.8rem;
+	border: 1px solid #eee;
+	min-height: 20rem;
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Left navigation and main content ends here */
 
 
 #footer{

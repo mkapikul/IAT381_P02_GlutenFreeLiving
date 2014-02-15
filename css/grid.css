@@ -194,6 +194,13 @@ html, body {
 		padding-bottom: 0.2rem;
 	}
 
+	.leftNav{
+		width: 100%;
+	}
+
+	.pageContent{
+		width: 100%;
+	}
 
 	#footer #footNav{
 		width:100%;
