@@ -4,28 +4,102 @@ body {
 	color:#4D5D66;
 }
 
-#container{
-	max-width: 1024px;
-	margin: 0 auto;
-}
-
-header{
-	width: 100%;
-	margin: 0 auto;
-	background: white;
-	border: solid 1px #fff;
-}
-
 h1{
-	font-size: 1.4rem;
-	font-weight: normal;
+	font-size: 1.5rem;
+	color: #67222C;
+	margin-top: 0.5rem;
+	font-weight: 800;
 }
 
 h2{
-	font-size: 1rem;
-	font-weight: normal;
-	color: #16A085;
+	font-size: 1.2rem;
+	color: #67222c;
+	margin-top: 0.5rem;
+	font-weight: 600;
 }
+
+#container{
+	max-width: 1000px;
+	padding: 0;
+	margin: 0 auto;
+	border: none;
+}
+
+#top{
+	width: 100%;
+	min-height: 90px;
+	margin-bottom: 0.3rem;
+	padding: 0rem;
+	background: white;
+	border-bottom: solid 4px #45C0BF;
+}
+
+.logo{
+	display: inline-block;
+	vertical-align: bottom;
+	background: white;
+	min-width: 145px;
+	width: 24%;
+}
+
+.navigation{
+	display: inline-block;
+	vertical-align: bottom;
+	width: 75%;
+}
+
+#banner{
+	margin: 0;
+	padding: 0;
+}
+
+.account{
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+	font-size: 0.8rem;
+	color: #F39C12;
+	margin-top: -1rem;
+	padding-right: 2rem;
+	padding-bottom: 1rem;
+}
+
+.account a{
+	color: #F39C12;
+	text-decoration: none;
+}
+
+#devider{
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+}
+
+#signUp{
+	display: none;
+}
+
+#logIn{
+	display: none;
+}
+
+nav.grid {
+	width: 100%;
+}
+nav a {
+	font-size: 1rem;
+	display: inline-block;
+	background-color: white ;
+	text-align: right;
+	color: #45C0BF;
+	text-decoration: none;
+	padding-top: 0.5rem;
+	padding-left: 0.5rem;
+	padding-right: 0.2rem;
+	padding-bottom: .5rem;
+	width: 100%;
+	
+} 
+
 
 h2 a{
 	color: #16A085;
@@ -45,129 +119,15 @@ h2 a:hover{
 	text-decoration: none;
 }
 
-nav ul{
-	padding-left: 0rem;
-} 
-
-nav ul li{
-	display: inline;
-	padding-right: 1.5rem;
-}
-
 h3{
 	font-size: 0.8rem;
 	font-weight: bold;
-}
-
-#moreDetails{
-	font-size: 0.75rem;
-	color: #3498DB;
-	text-decoration: none;
-}
-
-/*#moreDetails:visited{
-	color: #175782;
-}*/
-#moreDetails:active, #moreDetails:hover{
-	color: #F39C12;
-	text-decoration: underline;
 }
 
 p{
 	font-size: 0.75rem;
 }
 
-.productButton{
-	border:none;
-	background-color: #16A085;
-	padding: 0px 30px;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-	color: white;
-	text-shadow: rgba(0,0,0,0.1) 0 1px 0;
-	text-decoration: none;
-	vertical-align: middle;
-}
-
-.productButton:hover{
-	border: none;
-	background-color: #F39C12;
-	color: white;
-}
-
-#checkout{
-	background-color: #3498DB;
-}
-
-#checkout:hover{
-	border: none;
-	background-color: #F39C12;
-	color: white;
-}
-
-.mainNavigation{
-	border:1px solid #35595E;
-	background-color: white;
-	padding-left: 10px;
-	padding-top: 2px;
-	width:164px;
-	height: 66px;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-	color: #35595E;
-	text-shadow: rgba(0,0,0,.1) 0 1px 0;
-	font-size: 1.1rem;
-	text-decoration: none;
-	text-align: left;
-	vertical-align: left;
-
-}
-
-.mainNavigation:hover{
-	border: none;
-	background-color: #F39C12;
-	color: white;
-}
-
-.mainNavigation:active{
-	border:none;
-	background-color: #F39C12;
-	color: white;
-}
-
-.mainNavigation:after {
-	clear: both;
-}
-
-.menuNavigation{
-	border:1px solid #35595E;
-	background-color: white;
-	width: 225px;
-	text-align: left;
-	padding: 10px;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-	text-shadow: rgba(0,0,0,.1) 0 1px 0;
-	color: #35595E;
-	font-size: 0.9rem;
-	text-decoration: none;
-	vertical-align: middle;
-}
-
-.menuNavigation:hover{
-	border: none;
-	background-color: #F39C12;
-	color: white;
-}
-
-.menuNavigation:active{
-	border:none;
-	background-color: #F39C12;
-	color: white;
-}
 
 form{
 	font-size: 0.75rem;
