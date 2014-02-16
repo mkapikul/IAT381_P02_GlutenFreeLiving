@@ -119,7 +119,7 @@ h2{
 nav.grid {
 	width: 100%;
 }
-nav a {
+nav.grid a {
 	font-size: 1rem;
 	line-height: 1.2rem;
 	display: inline-block;
@@ -137,7 +137,7 @@ nav a {
 } 
 
 
-nav a:hover, nav a:focus {
+nav.grid a:hover, nav a:focus {
 	background-color: #45C0BF;
 	color: white;
 	font-weight: 400;
@@ -155,7 +155,7 @@ nav a:hover, nav a:focus {
 
 }
 
-nav a:active{
+nav.grid a:active{
 	background-color: #45C0BF;
 	color: white;
 	font-weight: 400;
@@ -175,18 +175,83 @@ nav a:active{
 /* Top portion of the page ends here - this includes top navigation menu, logo and banner that follows 
    Left navigation and main content starts here */
 
-.leftNav{
-	margin: 0 auto;
+#leftSidebar{
+	margin: 0;
 	width: 25%;
 	padding-top: 2rem;
-	padding-left: 0.8rem;
+	/*padding-left: 0.2rem;*/
 	border: 1px solid #eee;
 	background-color: white;
 	display: inline-block;
 	vertical-align: top;
 }
 
-.pageContent{
+nav.sideNav{
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+}
+
+nav.sideNav a{
+	border-top: solid 1px white;
+	border-opacity: 0.7;
+	font-size: .9rem;
+	line-height: 1rem;
+	display: block;
+	text-align: left;
+	background-color: #dbf0f0;
+	color: #349898;
+	text-decoration: none;
+	padding-left: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font-weight: 300;
+}
+
+nav.sideNav a:hover, nav.sideNav a:focus{
+	background-color: #45C0BF;
+	color: white;
+	font-weight: 600;
+	margin-left: -0.5rem;
+	margin-right: -0.5rem;
+	padding-left: 1.5rem;
+	border-top: solid 1px white;
+	border-bottom: solid 1px #eee;
+
+	-webkit-transition: all 0.15s ease;
+  	transition: all 0.25s ease;
+  
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+  
+  	-webkit-appearance: none;
+  	-webkit-font-smoothing: antialiased;
+  	text-rendering: optimizeLegibility;
+}
+
+nav.sideNav a:active{
+	background-color: #45C0BF;
+	color: white;
+	font-weight: 400;
+}
+
+#titleRow {
+	padding-left: .9rem;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	background-color: #45C0BF;
+	text-align: left;
+	color: #ffffff;
+	text-decoration: none;
+	padding-left: 1rem;
+	border-bottom: 2px solid white;
+
+}
+
+
+#pageContent{
 	margin: 0 auto;
 	width: 74%;
 	padding-top: 2rem;

@@ -54,7 +54,7 @@ html, body {
 		padding: 0;
 	}
 
-	nav a{
+	nav.grid a{
 		border-top: solid 2px white;
 		border-opacity: 0.7;
 		text-align: center;
@@ -216,7 +216,7 @@ html, body {
 		display: none;
 	}
 
-	nav a{
+	nav.grid a{
 		font-size: .9rem;
 		padding-top: 0.3rem;
 		padding-bottom: 0.3rem;
