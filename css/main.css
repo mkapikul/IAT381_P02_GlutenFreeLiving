@@ -186,6 +186,7 @@ nav.grid a:active{
 
 #leftSidebar{
 	margin: 0;
+	margin-bottom: 2rem;
 	width: 25%;
 	padding-top: 2rem;
 	/*padding-left: 0.2rem;*/
