@@ -5,17 +5,28 @@ body {
 }
 
 h1{
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	font-weight: 800;
-	color: #67222C;
+	font-style: bold;
+	color: #F39C12;
+	padding-bottom: 0.5rem;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+h2{
+	font-size: 1.2rem;
+	color: #67222c;
 	margin-top: 0.5rem;
+	font-weight: 600;
 }
 
 hr {
     border: 0;
     height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(245, 174, 61, 0.1);
+    border-bottom: 1px solid rgba(243, 156, 18, 0.3);
+
 } /* Idea for styling borrowed from "http://css-tricks.com/simple-styles-for-horizontal-rules" */
 
 
@@ -38,13 +49,6 @@ hr {
 	padding: .8rem;
 	line-height: .5rem;
 	padding-bottom: 0;
-}
-
-h2{
-	font-size: 1.2rem;
-	color: #67222c;
-	margin-top: 0.5rem;
-	font-weight: 600;
 }
 
 #container{
@@ -94,6 +98,10 @@ h2{
 	text-decoration: none;
 }
 
+.account a:hover{
+	color: #366373;
+}
+
 #devider{
 	padding-left: 0.3rem;
 	padding-right: 0.3rem;
@@ -130,7 +138,7 @@ nav.grid a {
 	padding-top: 1rem;
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
-	padding-bottom: 1rem;
+	padding-bottom: 1.2rem;
 	width: 100%;
 	font-weight: 300;
 	
@@ -165,6 +173,7 @@ nav.grid a:active{
 #cart_Item{
 	color: #67222c;
 	font-weight: 800;
+	font-style: bold;
 }
 
 #cart_Item:hover, #cart_Item:focus{
@@ -180,7 +189,7 @@ nav.grid a:active{
 	width: 25%;
 	padding-top: 2rem;
 	/*padding-left: 0.2rem;*/
-	border: 1px solid #eee;
+	/*border: 1px solid #eee;*/
 	background-color: white;
 	display: inline-block;
 	vertical-align: top;
@@ -238,6 +247,8 @@ nav.sideNav a:active{
 }
 
 #titleRow {
+	margin: 0 auto;
+	width: 90%;
 	padding-left: .9rem;
 	padding-top: 0.3rem;
 	padding-bottom: 0.3rem;
@@ -250,19 +261,43 @@ nav.sideNav a:active{
 
 }
 
+#titleRow a {
+	text-align: left;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#titleRow a:hover, #titleRow a:focus{
+	text-align: left;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+#titleRow a:active {
+	text-align: left;
+	color: #ffffff;
+	text-decoration: none;
+}
+
 
 #pageContent{
 	margin: 0 auto;
 	width: 74%;
 	padding-top: 2rem;
 	padding-left: 0.8rem;
-	border: 1px solid #eee;
+	/*border: 1px solid #eee;*/
 	min-height: 20rem;
 	background-color: white;
 	display: inline-block;
 	vertical-align: top;
 }
 
+#pageContent h1{
+	margin-top: 0;
+	padding-bottom: 0.1rem;
+	line-height: 1rem;
+}
 /* Left navigation and main content ends here */
 
 

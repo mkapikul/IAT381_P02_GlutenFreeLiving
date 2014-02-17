@@ -202,6 +202,14 @@ html, body {
 		width: 100%;
 	}
 
+	nav.sideNav a{
+		font-size: 0.7rem;
+	}
+
+	#titleRow {
+		font-size: 0.8rem;
+	}
+
 	#footer #footNav{
 		width:100%;
 		float: left;
@@ -232,6 +240,36 @@ html, body {
 		font-size: .9rem;
 		padding-top: 0.2rem;
 		padding-bottom: 0.2rem;
+	}
+
+	#leftSidebar{
+		width: 100%;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	nav.sideNav {
+		width: 95%;
+	}
+
+	nav.sideNav a {
+	font-size: .9rem;	
+	}
+
+	#titleRow {
+		font-size: 1rem;
+		width:95%;
+	}
+
+	#pageContent{
+		margin: .9rem;
+		padding: .5rem 0 0 0;
+		width: 95%;
+	}
+
+	#pageContent h1{
+		margin-top: 0;
+		line-height: 0.5rem;
 	}
 
 }
