@@ -12,6 +12,10 @@ html, body {
 	/*text-align: center; */
 }
 
+[class*='col-']:last-of-type {
+	padding-right: 0;
+}
+
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-siziing: border-box;
@@ -28,12 +32,23 @@ html, body {
 	width: 50%;
 }
 
+.col-2of3 {
+	width: 66.66%;
+}
+
+.col-1of3 {
+	width: 33.33%;
+}
+
 .col-1of6 {
 	width: 16%;
 }
 
 .col-1of5 {
 	width: 20%;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
 }
 
 /* iPad and other tablets using 1024x768px resolution - resize */
@@ -65,7 +80,7 @@ html, body {
 	}
 
 	nav.grid a{
-		border-top: solid 2px white;
+		border-top: solid 2px white; 
 		border-opacity: 0.7;
 		text-align: center;
 		font-size: 1rem;
@@ -177,8 +192,6 @@ html, body {
 	  	-webkit-font-smoothing: antialiased;
 	  	text-rendering: optimizeLegibility;
 	}
-
-
 }
 
 @media (max-width: 664px) {
@@ -202,7 +215,6 @@ html, body {
 	}
 
 	#logIn {
-
 		width: 100%;
 		width: 32%;
 		padding-top: 0.2rem;
@@ -235,6 +247,19 @@ html, body {
 /* mobile devices resolution - resize */
 
 @media (max-width: 495px) {
+
+	.col-1of5{
+		width: 33%;
+	}
+
+	.col-2of3 {
+	width: 100%;
+	}
+
+	.col-1of3 {
+		width: 100%;
+	}
+
 	.banner {
 		display: none;
 	}
@@ -286,6 +311,10 @@ html, body {
 		margin-top: 0;
 		line-height: 0.5rem;
 	}
+
+	.featRecipes{
+	margin-bottom: 0;
+}
 
 }
 
