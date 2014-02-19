@@ -4,6 +4,10 @@ body {
 	color:#4D5D66;
 }
 
+a, img{
+	border: none;
+} /* This code removes image border in IE (there was strange border around logo) */
+
 h1{
 	font-size: 1.3rem;
 	font-weight: 800;
