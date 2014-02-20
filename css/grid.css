@@ -49,6 +49,14 @@ html, body {
 	margin: 0 auto;
 	margin-bottom: 2rem;
 	margin-top: 0.5rem;
+}
+
+.blogMain {
+	width: 84%;
+}
+
+.blogSide {
+	width: 15%;
 
 }
 
