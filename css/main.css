@@ -15,6 +15,7 @@ button{
 	border: none;
 }
 
+
 h1{
 	font-size: 1.2rem;
 	font-weight: 800;
@@ -40,7 +41,7 @@ h3{
 h4{
 	font-size: 0.8rem;
 	color: #797979;
-	padding-bottom: .5rem;
+	margin-bottom: .4rem;
 }
 
 hr {
@@ -53,21 +54,6 @@ hr {
 
 /* Experimental section begins &&&&&&&&&&&&&&&&&&&&&&&& */
 
-
-img.productImg{
-	display: block;
-	margin: 0 auto;
-	padding: 0rem;
-
-	border-bottom: 3px solid #45C0BF;
-	border-top: 3px solid #45C0BF;
-
-}
-
-img.prodRating{
-	display: block;
-	margin: 0.4rem auto;
-}
 
 /*.mainPageproducts {
 	display: inline-block;
@@ -392,6 +378,47 @@ article.multiProduct h4{
 	text-align: center;	
 }
 
+article.multiProduct a{
+	color: #797979;
+	text-decoration: none;
+	text-align: center;
+}
+
+article.multiProduct a:hover, 
+article.multiProduct a:focus, 
+article.multiProduct a:active{
+
+	color: #45C0BF;
+		text-align: center;
+
+	-webkit-transition: all 0.15s ease;
+  	transition: all 0.25s ease;
+  
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+  
+  	-webkit-appearance: none;
+  	-webkit-font-smoothing: antialiased;
+  	text-rendering: optimizeLegibility;
+}
+
+img.productImg{
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+	padding: 0rem;
+	border-bottom: 3px solid #45C0BF;
+	border-top: 3px solid #45C0BF;
+
+}
+
+img.prodRating{
+	display: block;
+	margin: 0.6rem auto;
+}
 
 button.AddToCart{
 	width: 100%;
