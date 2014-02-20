@@ -44,11 +44,12 @@ html, body {
 	width: 16%;
 }
 
-.col-1of5 {
-	width: 20%;
+.col-1of4 {
+	width: 25%;
 	margin: 0 auto;
 	margin-bottom: 2rem;
-	margin-top: 1rem;
+	margin-top: 0.5rem;
+
 }
 
 /* iPad and other tablets using 1024x768px resolution - resize */
@@ -61,6 +62,10 @@ html, body {
 	.col-1of6 {
 		width: 33%;
 		border-left: 2px solid white ;
+	}
+
+	.col-1of4{
+		width:33.33%;
 	}
 
 	.navigation {
@@ -248,8 +253,8 @@ html, body {
 
 @media (max-width: 495px) {
 
-	.col-1of5{
-		width: 33%;
+	.col-1of4{
+		width: 50%;
 	}
 
 	.col-2of3 {
@@ -312,9 +317,9 @@ html, body {
 		line-height: 0.5rem;
 	}
 
-	.featRecipes{
+	.FeatRecipes{
 	margin-bottom: 0;
-}
+	} /* Reset bottom margin, originally setup in case that there are not blog posts */
 
 }
 

@@ -8,6 +8,13 @@ a, img{
 	border: none;
 } /* This code removes image border in IE (there was strange border around logo) */
 
+
+button{
+	margin: 0;
+	padding-bottom: 0;
+	border: none;
+}
+
 h1{
 	font-size: 1.2rem;
 	font-weight: 800;
@@ -19,10 +26,21 @@ h1{
 }
 
 h2{
-	font-size: 1.2rem;
-	color: #67222c;
-	margin-top: 0.5rem;
+	font-size: 1rem;
+	color: white;
 	font-weight: 600;
+
+}
+
+h3{
+	font-size: 1rem;
+	color: #F39C12 ;
+}
+
+h4{
+	font-size: 0.8rem;
+	color: #797979;
+	padding-bottom: .5rem;
 }
 
 hr {
@@ -35,44 +53,26 @@ hr {
 
 /* Experimental section begins &&&&&&&&&&&&&&&&&&&&&&&& */
 
-article.featProduct{
-	min-height: 2rem;
-	border: 1px solid #eee;
-}
-
-article.featRecipes{
-	min-height: 2rem;
-	border: 1px solid #eee;
-}
-
-article.blogPostArea{
-	min-height: 2rem;
-	border: 1px solid #eee;
-	min-height: 15rem;
-	background: #dbf0f0;
-}
-
-.featRecipes{
-	margin-bottom: 2rem;
-}
-
-.BlogPosts{
-	margin-bottom: 2rem;
-}
 
 img.productImg{
 	display: block;
 	margin: 0 auto;
-	padding: .4rem;
+	padding: 0rem;
 
-	border: 3px solid #45C0BF;
+	border-bottom: 3px solid #45C0BF;
+	border-top: 3px solid #45C0BF;
 
 }
 
-.mainPageproducts {
+img.prodRating{
+	display: block;
+	margin: 0.4rem auto;
+}
+
+/*.mainPageproducts {
 	display: inline-block;
 	margin: 0 auto;
-}
+}  */
 
 #light{
 	font-weight: 300;
@@ -99,6 +99,8 @@ img.productImg{
 	padding: .8rem;
 	line-height: .5rem;
 	padding-bottom: 0;
+	margin-bottom: 2rem;
+
 }
 
 .BlogPosts{
@@ -107,6 +109,23 @@ img.productImg{
 	line-height: .5rem;
 	padding-bottom: 0;
 	margin-bottom: 2rem;
+}
+
+article.featProduct{
+	min-height: 2rem;
+	border: 1px solid #eee;
+}
+
+article.featRecipes{
+	min-height: 2rem;
+	border: 1px solid #eee;
+}
+
+article.blogPostArea{
+	min-height: 2rem;
+	border: 1px solid #eee;
+	min-height: 15rem;
+	background: #dbf0f0;
 }
 
 #top{
@@ -212,7 +231,6 @@ nav.grid a:hover, nav a:focus {
   	-webkit-appearance: none;
   	-webkit-font-smoothing: antialiased;
   	text-rendering: optimizeLegibility;
-
 }
 
 nav.grid a:active{
@@ -336,6 +354,7 @@ nav.sideNav a:active{
 
 #pageContent{
 	margin: 0 auto;
+	margin-bottom: 0.5rem;
 	width: 74%;
 	padding-top: 2rem;
 	padding-left: 0.8rem;
@@ -353,6 +372,93 @@ nav.sideNav a:active{
 }
 /* Left navigation and main content ends here */
 
+article.multiProduct{
+	/*border: 1px solid #eee;*/
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+article.multiProduct h3{
+	margin-top: 0.2rem;
+	margin-bottom: 0;
+	line-height: .9rem;
+	text-align: center;
+
+}
+
+article.multiProduct h4{
+	margin-top: 0.4rem;
+	margin-bottom: 0rem;
+	text-align: center;	
+}
+
+
+button.AddToCart{
+	width: 100%;
+	font-size: .9rem;
+	font-weight: 300;
+	color: #349898;	
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	margin-top: 0.4rem;
+	text-decoration: none;
+	background-color: #dbf0f0;
+	border-bottom: 1px solid #45C0BF;
+	/*border-top: 1px solid #45C0BF;*/
+	
+
+
+}
+
+button.AddToCart:hover{
+	background-color: #45C0BF;
+	color: white;
+	-webkit-transition: all 0.15s ease;
+  	transition: all 0.25s ease;
+  
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+  
+  	-webkit-appearance: none;
+  	-webkit-font-smoothing: antialiased;
+  	text-rendering: optimizeLegibility;
+}
+
+button.QuickBuy{
+	width: 100%;
+	font-size: .9rem;
+	font-weight: 300;
+	color: #349898;	
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	margin-top: 0.4rem;
+	text-decoration: none;
+	background-color: #dbf0f0;
+	border-bottom: 1px solid #45C0BF;
+	/*border-top: 1px solid #45C0BF;*/	
+
+}
+
+button.QuickBuy:hover{
+	font-weight: 400;
+	background-color: #45C0BF;
+	color: white;
+	-webkit-transition: all 0.15s ease;
+  	transition: all 0.25s ease;
+  
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+  
+  	-webkit-appearance: none;
+  	-webkit-font-smoothing: antialiased;
+  	text-rendering: optimizeLegibility;
+}
+
+
 
 #footer{
 	clear: both;
@@ -362,6 +468,7 @@ nav.sideNav a:active{
 	border-top: 1px solid #45C0BF;
 	padding: .8rem;
 	line-height: 1.1rem;
+	margin-bottom: 2rem;
 }
 
 #footer a{
