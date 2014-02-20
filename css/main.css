@@ -15,6 +15,10 @@ button{
 	border: none;
 }
 
+button:focus{
+	outline:0;
+	} /* Found this on StackOverflow to remove border around button in Chrome */
+
 
 h1{
 	font-size: 1.2rem;
@@ -44,6 +48,31 @@ h4{
 	margin-bottom: .4rem;
 }
 
+p{
+	font-size: .9rem;
+	line-height: 1.4rem;
+}
+
+a{
+	color: #45C0BF;
+	text-decoration: none;
+}
+
+a:hover, a:focus, a:active{
+
+	color: #366373;
+	-webkit-transition: all 0.15s ease;
+  	transition: all 0.25s ease;
+  
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+  
+  	-webkit-appearance: none;
+  	-webkit-font-smoothing: antialiased;
+}
+
 hr {
     border: 0;
     height: 0;
@@ -54,11 +83,33 @@ hr {
 
 /* Experimental section begins &&&&&&&&&&&&&&&&&&&&&&&& */
 
-
-/*.mainPageproducts {
+.blogMain{
+	margin: 0;
 	display: inline-block;
-	margin: 0 auto;
-}  */
+	border: 1px solid #eee;
+	min-height: 15rem;
+}
+
+.blogSide{
+	margin: 0;
+	display: inline-block;
+	border: 1px solid #eee;
+	min-height: 15rem;
+
+}
+
+
+article.subHeading h3{
+	font-style: italic;
+	color: #797979;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+article.subHeading{
+	width: 85%;
+	margin-bottom: 2rem;
+}
 
 #light{
 	font-weight: 300;
@@ -109,7 +160,7 @@ article.featRecipes{
 
 article.blogPostArea{
 	min-height: 2rem;
-	border: 1px solid #eee;
+	border-left: .8rem solid #45C0BF;
 	min-height: 15rem;
 	background: #dbf0f0;
 }
