@@ -48,6 +48,13 @@ h4{
 	margin-bottom: .4rem;
 }
 
+h5{
+	margin: 0;
+	font-size: .7rem;
+	color: #366373;
+
+}
+
 p{
 	font-size: .9rem;
 	line-height: 1.4rem;
@@ -73,6 +80,28 @@ a:hover, a:focus, a:active{
   	-webkit-font-smoothing: antialiased;
 }
 
+p a{
+	color: #4D5D66;
+	color: #2c353a;
+	color: #425057;
+	font-weight: 600;
+}
+
+p a:hover{
+	text-decoration: underline; 
+	color: #366373;
+	-webkit-transition: all 0.15s ease;
+  	transition: all 0.25s ease;
+  
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+  
+  	-webkit-appearance: none;
+  	-webkit-font-smoothing: antialiased;
+} 
+
 hr {
     border: 0;
     height: 0;
@@ -84,6 +113,7 @@ hr {
 /* Experimental section begins &&&&&&&&&&&&&&&&&&&&&&&& */
 
 .blogMain{
+	width: 100%;
 	margin: 0;
 	display: inline-block;
 	border: 1px solid #eee;
@@ -91,6 +121,24 @@ hr {
 }
 
 .blogSide{
+	width:100%;
+	margin: 0;
+	display: inline-block;
+	border: 1px solid #eee;
+	min-height: 15rem;
+
+}
+
+.dietMain{
+	width: 100%;
+	margin: 0;
+	display: inline-block;
+	border: 1px solid #eee;
+	min-height: 15rem;
+}
+
+.dietSide{
+	width:100%;
 	margin: 0;
 	display: inline-block;
 	border: 1px solid #eee;
@@ -121,48 +169,6 @@ article.subHeading{
 	padding: 0;
 	margin: 0 auto;
 	border: none;
-}
-
-.FeatProducts{
-	min-height: 0;
-	padding: .8rem;
-	line-height: .5rem;
-	padding-bottom: 0;
-}
-
-.FeatRecipes{
-	width: 100%;
-	min-height: 0;
-	padding: .8rem;
-	line-height: .5rem;
-	padding-bottom: 0;
-	margin-bottom: 2rem;
-
-}
-
-.BlogPosts{
-	min-height: 8rem;
-	padding: .8rem;
-	line-height: .5rem;
-	padding-bottom: 0;
-	margin-bottom: 2rem;
-}
-
-article.featProduct{
-	min-height: 2rem;
-	border: 1px solid #eee;
-}
-
-article.featRecipes{
-	min-height: 2rem;
-	border: 1px solid #eee;
-}
-
-article.blogPostArea{
-	min-height: 2rem;
-	border-left: .8rem solid #45C0BF;
-	min-height: 15rem;
-	background: #dbf0f0;
 }
 
 #top{
@@ -290,6 +296,91 @@ nav.grid a:active{
 
 /* Top portion of the page ends here - this includes top navigation menu, logo and banner that follows 
    Left navigation and main content starts here */
+
+/* Main Page Layout and content */
+
+.FeatProducts{
+	min-height: 0;
+	padding: .8rem;
+	line-height: .5rem;
+	padding-bottom: 0;
+}
+
+.FeatProducts h3{
+	line-height: 1.2rem;
+	color: #45C0BF;
+}
+
+.FeatProducts article{
+	text-align: center;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.FeatRecipes{
+	width: 100%;
+	min-height: 0;
+	padding: .8rem;
+	line-height: .5rem;
+	padding-bottom: 0;
+	margin-bottom: 2rem;
+}
+
+.FeatRecipes article{
+	text-align: center;
+}
+
+.FeatRecipes h3{
+	line-height: 1.2rem;
+	color: #45C0BF;
+}
+
+.BlogPosts{
+	min-height: 8rem;
+	padding: .8rem;
+	line-height: .5rem;
+	padding-bottom: 0;
+	margin-bottom: 2rem;
+}
+
+.BlogPosts article{
+	padding-left: .3rem;
+	line-height: 1rem;
+	border-left: 1px solid #45C0BF;
+}
+
+.BlogPosts h4{
+	padding-top: 0rem;
+	font-size: .9rem;
+	line-height: 1.1rem;
+	color: #366373;
+	text-shadow: rgba(0,0,0,.3) 0 1px 0;
+
+}
+
+.BlogPosts p{
+	font-size: .8rem;
+}
+
+#shareBlog{
+	margin: 0 auto;
+	margin-bottom: 2rem;
+}
+
+.blogPostArea hr{
+	border: 0;
+    height: 0;
+    border-top: 1px dashed #366373;
+
+}
+
+.imageSpan{
+	margin-top: 0.5rem;
+	margin-right: 1rem;
+}
+
+/* Main Page finishes */ 
+
 
 #leftSidebar{
 	margin: 0;
