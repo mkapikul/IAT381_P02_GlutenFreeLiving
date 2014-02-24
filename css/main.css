@@ -60,6 +60,11 @@ p{
 	line-height: 1.4rem;
 }
 
+blockquote{
+	font-size: .9rem;
+	line-height: 1.4rem;
+}
+
 a{
 	color: #45C0BF;
 	text-decoration: none;
@@ -109,25 +114,25 @@ hr {
     border-bottom: 1px solid rgba(243, 156, 18, 0.3);
 } /* Idea for styling borrowed from "http://css-tricks.com/simple-styles-for-horizontal-rules" */
 
+hr.dashed{
+	border: 0;
+    height: 0;
+    border-top: 1px dashed #366373;
+}
 
 /* Experimental section begins &&&&&&&&&&&&&&&&&&&&&&&& */
 
-.blogMain{
-	width: 100%;
-	margin: 0;
-	display: inline-block;
-	border: 1px solid #eee;
-	min-height: 15rem;
-}
+
 
 .blogSide{
 	width:100%;
 	margin: 0;
 	display: inline-block;
-	border: 1px solid #eee;
-	min-height: 15rem;
+	/*border: 1px solid #eee;
+	min-height: 15rem;*/
 
 }
+
 
 .dietMain{
 	width: 100%;
@@ -150,6 +155,8 @@ hr {
 article.subHeading h3{
 	font-style: italic;
 	color: #797979;
+	color: #366373;
+	text-shadow: rgba(0,0,0,.2) 0 1px 0;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
@@ -362,7 +369,7 @@ nav.grid a:active{
 	font-size: .8rem;
 }
 
-#shareBlog{
+.share{
 	margin: 0 auto;
 	margin-bottom: 2rem;
 }
@@ -377,6 +384,62 @@ nav.grid a:active{
 .imageSpan{
 	margin-top: 0.5rem;
 	margin-right: 1rem;
+}
+
+.blogMain{
+	width: 100%;
+	margin: 0;
+	display: inline-block;
+}
+
+.blogMain h3{
+	padding-top: 0rem;
+	line-height: 1.1rem;
+	color: #366373;
+	text-shadow: rgba(0,0,0,.2) 0 1px 0;
+}
+
+.blogMain h4{
+	padding-top: 0rem;
+	line-height: .8rem;
+	color: #366373;
+}
+
+.blogMain hr{
+	border: 0;
+    height: 0;
+    border-top: 1px dashed #366373;
+
+}
+
+img.align-left{
+	padding-top: 0.3rem;
+	float: left;
+	margin-right: 1rem;
+}
+
+img.align-right{
+	padding-top: 0.3rem;
+	float: right;
+	margin-left: 1rem;
+}
+
+.events h3{
+	font-style: italic;
+	color: #797979;
+	color: #366373;
+	text-shadow: rgba(0,0,0,.2) 0 1px 0;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.shipping h3{
+	font-style: italic;
+	color: #797979;
+	color: #366373;
+	text-shadow: rgba(0,0,0,.2) 0 1px 0;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 /* Main Page finishes */ 
