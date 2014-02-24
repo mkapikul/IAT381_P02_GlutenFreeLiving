@@ -133,30 +133,11 @@ hr.dashed{
 
 }
 
-
-.dietMain{
-	width: 100%;
-	margin: 0;
-	display: inline-block;
-	border: 1px solid #eee;
-	min-height: 15rem;
-}
-
-.dietSide{
-	width:100%;
-	margin: 0;
-	display: inline-block;
-	border: 1px solid #eee;
-	min-height: 15rem;
-
-}
-
-
 article.subHeading h3{
 	font-style: italic;
 	color: #797979;
 	color: #366373;
-	text-shadow: rgba(0,0,0,.2) 0 1px 0;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
@@ -358,10 +339,10 @@ nav.grid a:active{
 
 .BlogPosts h4{
 	padding-top: 0rem;
-	font-size: .9rem;
+	font-size: 1rem;
 	line-height: 1.1rem;
 	color: #366373;
-	text-shadow: rgba(0,0,0,.3) 0 1px 0;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
 
 }
 
@@ -396,7 +377,7 @@ nav.grid a:active{
 	padding-top: 0rem;
 	line-height: 1.1rem;
 	color: #366373;
-	text-shadow: rgba(0,0,0,.2) 0 1px 0;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
 }
 
 .blogMain h4{
@@ -405,12 +386,6 @@ nav.grid a:active{
 	color: #366373;
 }
 
-.blogMain hr{
-	border: 0;
-    height: 0;
-    border-top: 1px dashed #366373;
-
-}
 
 img.align-left{
 	padding-top: 0.3rem;
@@ -428,7 +403,7 @@ img.align-right{
 	font-style: italic;
 	color: #797979;
 	color: #366373;
-	text-shadow: rgba(0,0,0,.2) 0 1px 0;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
@@ -437,12 +412,36 @@ img.align-right{
 	font-style: italic;
 	color: #797979;
 	color: #366373;
-	text-shadow: rgba(0,0,0,.2) 0 1px 0;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
 
-/* Main Page finishes */ 
+.dietMain{
+	width: 100%;
+	margin: 0;
+	display: inline-block;
+	min-height: 15rem;
+}
+
+.dietMain h3{
+	font-style: italic;
+	color: #797979;
+	color: #366373;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.dietMain h4{
+	padding-top: 0rem;
+	font-size: .9rem;
+	line-height: 1.1rem;
+	color: #366373;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
+}
+
+/* Content Pages finishes */ 
 
 
 #leftSidebar{
