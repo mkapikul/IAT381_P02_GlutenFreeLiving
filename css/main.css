@@ -22,6 +22,7 @@ button:focus{
 
 h1{
 	font-size: 1.2rem;
+	line-height: 1.5rem;
 	font-weight: 800;
 	font-style: bold;
 	color: #F39C12;
@@ -32,9 +33,8 @@ h1{
 
 h2{
 	font-size: 1rem;
-	color: white;
+	color: #F39C12;
 	font-weight: 600;
-
 }
 
 h3{
@@ -121,30 +121,167 @@ hr.dashed{
 }
 
 /* Experimental section begins &&&&&&&&&&&&&&&&&&&&&&&& */
+form{
+	font-size: .75rem;
+}
 
+form label{
+	margin-top: 1rem;
+	/*padding-left: 0.25rem;*/
+	color: #5e5e5e;
+}
 
-
-.blogSide{
-	width:100%;
-	margin: 0;
-	display: inline-block;
-	/*border: 1px solid #eee;
-	min-height: 15rem;*/
+form input , form textarea {
+	font-size: 0.75rem;
+	/*border: 1px solid #45C0BF;*/
+ 	color: #555;
+	padding: .2rem .2rem .2rem .7rem;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    font: normal 14px/14px Arial, Helvetica, sans-serif;
 
 }
 
-article.subHeading h3{
-	font-style: italic;
-	color: #797979;
-	color: #366373;
-	text-shadow: rgba(121,121,121,.2) 0 1px 0;
+form input:hover, form textarea:hover {
+	border-color: #45C0BF;
+}
+.reviewForm{
+	display: block;
+	clear: both;
+}
+.reviewForm label, .reviewForm input{
+	clear: both;
+	display: block;
+	float: left;
+}
+
+.reviewForm textarea{
+	width:90%;
+	min-height: 5rem;
+}
+
+.rateProduct{
+	width: 100%;
+	display: block;
+	float: left;
+	margin-bottom: .5rem;
+}
+.rateProduct h5{
+	margin-left: 0.3rem;
+	display: inline-block;
+	clear: both;
+}
+
+#submitButton{
+	margin-top: .5rem;
+	width:50%;
+	margin-bottom: 2rem;
+}
+
+.singleProductImg {
+	margin-top: 2rem;
+}
+.singleProductImg img{
+	/*margin: 0 auto;*/
+	display: block;
+}
+
+.singleProductDesc{
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+
 }
 
-article.subHeading{
-	width: 85%;
+#singleRating{
+	margin-left: 1.5rem;
+	padding-top: 1rem;
+	padding-bottom: .5rem;
+}
+
+.productWeight h5{
+	color: #366373;
+	font-size: .8rem;
+	padding-top: .7rem;
+
+}
+
+.productPrice{
+	padding-top: 1rem;
+}
+.productPrice h3{
+	font-size: 1rem;
+	margin: 0;
+	padding: 0;
+	padding-top: .1rem;
+	margin-right: 1rem;
+	display: inline-block;
+	float: left;
+}
+
+.buyProduct{
+	clear: both;
+	margin-top: .6rem;
+	min-width: 20rem;
+	width: 30%;
+	/*background-color: green;*/
+	display: inline-block;
+	float: left;
+}
+
+form.productPrice {
+	float: right;
+}
+
+.prodFeatures {
 	margin-bottom: 2rem;
+}
+.prodFeatures h3{
+	font-style: bold;
+	color: #366373;
+	margin-top: 0;
+}
+
+.prodFeatures ul {
+	padding-left: 1rem;
+	font-size: .9rem;
+
+}
+
+.nutritionLabel{
+	margin-top: 0.5rem;
+
+}
+.nutritionLabel img{
+	float: right;
+	padding-top: .4rem;
+	padding-bottom: .4rem;
+	border-top: 5px solid #45C0BF;
+	border-bottom: 5px solid #45C0BF;
+}
+
+#pButton{
+	width: 50%;
+}
+
+.buyProduct:after{
+	clear: both;
+}
+.prodReview{
+	clear: both;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+
+.prodReview h2{
+	font-size: 1.1rem;
+	line-height: 1.2rem;
+	padding-bottom: 0rem;
+	margin-top: 2rem;
+	margin-bottom: 0;
+
 }
 
 #light{
@@ -286,6 +423,31 @@ nav.grid a:active{
    Left navigation and main content starts here */
 
 /* Main Page Layout and content */
+article.subHeading h3{
+	font-style: italic;
+	color: #797979;
+	color: #366373;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+article.subHeading{
+	width: 85%;
+	margin-bottom: 2rem;
+}
+
+img.align-left{
+	padding-top: 0.3rem;
+	float: left;
+	margin-right: 1rem;
+}
+
+img.align-right{
+	padding-top: 0.3rem;
+	float: right;
+	margin-left: 1rem;
+}
 
 .FeatProducts{
 	min-height: 0;
@@ -384,19 +546,6 @@ nav.grid a:active{
 	padding-top: 0rem;
 	line-height: .8rem;
 	color: #366373;
-}
-
-
-img.align-left{
-	padding-top: 0.3rem;
-	float: left;
-	margin-right: 1rem;
-}
-
-img.align-right{
-	padding-top: 0.3rem;
-	float: right;
-	margin-left: 1rem;
 }
 
 .events h3{
@@ -688,8 +837,6 @@ button.QuickBuy:hover{
   	-webkit-font-smoothing: antialiased;
   	text-rendering: optimizeLegibility;
 }
-
-
 
 #footer{
 	clear: both;
