@@ -150,7 +150,83 @@ form input:hover, form textarea:hover {
 
 /* Experimental section begins &&&&&&&&&&&&&&&&&&&&&&&& */
 
+.singleRecipeImg {
+	margin-top: 1.5rem;
+}
 
+.singleRecipeImg ul{
+	list-style-type: none;
+	font-size: 0.9rem;
+	padding-left: 0;
+}
+
+.singleRecipeImg ul li{
+	padding-bottom: .3rem;
+}
+
+.singleRecipeImg img{
+	display: inline-block;
+	clear:both;
+}
+.singleRecipeImg h3{
+	margin: 0rem;
+	display:inline-block;
+	color: #366373;
+}
+
+.singleRecipeImg h5{
+	font-size: .8rem;
+	margin-bottom: .3rem;
+}
+
+.recipeInstructions{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.recipeInstructions h3{
+	margin: 0rem;
+	display:inline-block;
+	color: #366373;
+}
+
+.buyIngredients{
+	margin-top: .8rem;
+}
+
+.recipeImg{
+	margin: 0 auto;
+}
+
+#recipeRating{
+	display: inline-block;	
+	margin: 0;
+	padding: 0;
+	padding-bottom: .7rem;
+}
+.multiRecipe h3{
+	font-size: .9rem;
+	text-align: center;
+	margin-bottom: 0.2rem;
+}
+
+.multiRecipe p{
+	text-align: center;
+}
+
+.multiRecipe h5{
+	text-align: center;
+	font-size: .7rem;
+}
+
+.multiRecipe{
+	margin-bottom: 1.4rem; 
+}
+
+.time{
+	font-size: .8rem;
+	color: #F39C12;
+}
 
 #light{
 	font-weight: 300;
@@ -637,6 +713,16 @@ img.productImg{
 
 }
 
+img.recipeImg {
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+	padding: 0rem;
+	border-bottom: 3px solid #45C0BF;
+	border-top: 3px solid #45C0BF;
+}
+
 img.prodRating{
 	display: block;
 	margin: 0.6rem auto;
@@ -746,9 +832,13 @@ button.QuickBuy:hover{
 	clear: both;
 }
 
+.reviewNo{
+	color: #45C0BF ;
+}
+
 #submitButton{
 	margin-top: .5rem;
-	width:50%;
+	width:16rem;
 	margin-bottom: 2rem;
 }
 

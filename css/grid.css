@@ -43,6 +43,10 @@ html, body {
 	width: 33.33%;
 }
 
+.col-new1of3 {
+	width: 33.33%;
+}
+
 .col-1of6 {
 	width: 16%;
 }
@@ -69,6 +73,10 @@ html, body {
 
 	.col-2of3{
 		width: 100%;
+	}
+
+	.col-new1of3{
+		width: 50%;
 	}
 
 	.singleProductImg{
@@ -279,6 +287,7 @@ html, body {
 }
 
 @media (max-width: 590px) {
+
 	.col-1of3{
 		width: 100%;
 	}
