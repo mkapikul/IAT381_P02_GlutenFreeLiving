@@ -60,12 +60,20 @@ html, body {
 
 .col-1-3rd {
 	width: 15%;
-
 }
+
 
 /* iPad and other tablets using 1024x768px resolution - resize */
 
 @media (max-width: 768px) {
+
+	.col-2of3{
+		width: 100%;
+	}
+
+	.singleProductImg{
+		margin: 2rem auto;
+	}
 
 	#container{
 		width: 100%;
@@ -216,6 +224,11 @@ html, body {
 }
 
 @media (max-width: 664px) {
+
+	#pageContent h1{
+		line-height: 1.6rem;
+	}
+
 	#altLogo{
 		width: 100%;
 		width: 32%;

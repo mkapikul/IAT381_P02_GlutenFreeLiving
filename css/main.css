@@ -120,7 +120,6 @@ hr.dashed{
     border-top: 1px dashed #366373;
 }
 
-/* Experimental section begins &&&&&&&&&&&&&&&&&&&&&&&& */
 form{
 	font-size: .75rem;
 }
@@ -148,141 +147,10 @@ form input , form textarea {
 form input:hover, form textarea:hover {
 	border-color: #45C0BF;
 }
-.reviewForm{
-	display: block;
-	clear: both;
-}
-.reviewForm label, .reviewForm input{
-	clear: both;
-	display: block;
-	float: left;
-}
 
-.reviewForm textarea{
-	width:90%;
-	min-height: 5rem;
-}
+/* Experimental section begins &&&&&&&&&&&&&&&&&&&&&&&& */
 
-.rateProduct{
-	width: 100%;
-	display: block;
-	float: left;
-	margin-bottom: .5rem;
-}
-.rateProduct h5{
-	margin-left: 0.3rem;
-	display: inline-block;
-	clear: both;
-}
 
-#submitButton{
-	margin-top: .5rem;
-	width:50%;
-	margin-bottom: 2rem;
-}
-
-.singleProductImg {
-	margin-top: 2rem;
-}
-.singleProductImg img{
-	/*margin: 0 auto;*/
-	display: block;
-}
-
-.singleProductDesc{
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-
-}
-
-#singleRating{
-	margin-left: 1.5rem;
-	padding-top: 1rem;
-	padding-bottom: .5rem;
-}
-
-.productWeight h5{
-	color: #366373;
-	font-size: .8rem;
-	padding-top: .7rem;
-
-}
-
-.productPrice{
-	padding-top: 1rem;
-}
-.productPrice h3{
-	font-size: 1rem;
-	margin: 0;
-	padding: 0;
-	padding-top: .1rem;
-	margin-right: 1rem;
-	display: inline-block;
-	float: left;
-}
-
-.buyProduct{
-	clear: both;
-	margin-top: .6rem;
-	min-width: 20rem;
-	width: 30%;
-	/*background-color: green;*/
-	display: inline-block;
-	float: left;
-}
-
-form.productPrice {
-	float: right;
-}
-
-.prodFeatures {
-	margin-bottom: 2rem;
-}
-.prodFeatures h3{
-	font-style: bold;
-	color: #366373;
-	margin-top: 0;
-}
-
-.prodFeatures ul {
-	padding-left: 1rem;
-	font-size: .9rem;
-
-}
-
-.nutritionLabel{
-	margin-top: 0.5rem;
-
-}
-.nutritionLabel img{
-	float: right;
-	padding-top: .4rem;
-	padding-bottom: .4rem;
-	border-top: 5px solid #45C0BF;
-	border-bottom: 5px solid #45C0BF;
-}
-
-#pButton{
-	width: 50%;
-}
-
-.buyProduct:after{
-	clear: both;
-}
-.prodReview{
-	clear: both;
-	margin-top: 2rem;
-	margin-bottom: 3rem;
-}
-
-.prodReview h2{
-	font-size: 1.1rem;
-	line-height: 1.2rem;
-	padding-bottom: 0rem;
-	margin-top: 2rem;
-	margin-bottom: 0;
-
-}
 
 #light{
 	font-weight: 300;
@@ -592,7 +460,6 @@ img.align-right{
 
 /* Content Pages finishes */ 
 
-
 #leftSidebar{
 	margin: 0;
 	margin-bottom: 2rem;
@@ -711,6 +578,8 @@ nav.sideNav a:active{
 }
 /* Left navigation and main content ends here */
 
+/* Muliti Product Listing */
+
 article.multiProduct{
 	/*border: 1px solid #eee;*/
 	padding-left: 0.5rem;
@@ -785,8 +654,6 @@ button.AddToCart{
 	background-color: #dbf0f0;
 	border-bottom: 1px solid #45C0BF;
 	/*border-top: 1px solid #45C0BF;*/
-	
-
 
 }
 
@@ -837,6 +704,224 @@ button.QuickBuy:hover{
   	-webkit-font-smoothing: antialiased;
   	text-rendering: optimizeLegibility;
 }
+
+/* Single Product Listing */
+
+.reviewForm{
+	display: block;
+	clear: both;
+}
+.reviewForm input{
+	width: 12rem;
+	clear: both;
+	display: block;
+	float: left;
+}
+
+.reviewForm label {
+	width: 12rem;
+	clear: both;
+	display: block;
+	float: left;
+}
+
+#email{
+	width: 14rem;
+}
+
+.reviewForm textarea{
+	width:20rem;
+	min-height: 5rem;
+}
+
+.rateProduct{
+	width: 100%;
+	display: block;
+	float: left;
+	margin-bottom: .5rem;
+}
+.rateProduct h5{
+	margin-left: 0.3rem;
+	display: inline-block;
+	clear: both;
+}
+
+#submitButton{
+	margin-top: .5rem;
+	width:50%;
+	margin-bottom: 2rem;
+}
+
+.singleProductImg {
+	margin-top: 2rem;
+}
+.singleProductImg img{
+	/*margin: 0 auto;*/
+	display: block;
+}
+
+.singleProductDesc{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+
+}
+
+#singleRating{
+	margin-left: 1.5rem;
+	padding-top: 1rem;
+	padding-bottom: .5rem;
+}
+
+.productWeight h5{
+	color: #366373;
+	font-size: .8rem;
+	padding-top: .7rem;
+
+}
+
+.productPrice{
+	padding-top: 1rem;
+}
+.productPrice h3{
+	font-size: 1rem;
+	margin: 0;
+	padding: 0;
+	padding-top: .1rem;
+	margin-right: 1rem;
+	display: inline-block;
+	float: left;
+}
+
+.buyProduct{
+	clear: both;
+	margin-top: .6rem;
+	min-width: 20rem;
+	width: 30%;
+	/*background-color: green;*/
+	display: inline-block;
+	float: left;
+}
+
+form.productPrice {
+	float: right;
+}
+
+.prodFeatures {
+	margin-bottom: 2rem;
+}
+.prodFeatures h3{
+	font-style: bold;
+	color: #366373;
+	margin-top: 0;
+}
+
+.prodFeatures ul {
+	padding-left: 1rem;
+	font-size: .9rem;
+
+}
+
+.nutritionLabel{
+	margin-top: 0.5rem;
+
+}
+.nutritionLabel img{
+	float: right;
+	padding-top: .4rem;
+	padding-bottom: .4rem;
+	border-top: 5px solid #45C0BF;
+	border-bottom: 5px solid #45C0BF;
+}
+
+#pButton{
+	width: 50%;
+}
+
+.buyProduct:after{
+	clear: both;
+}
+.prodReview{
+	clear: both;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+
+.prodReview h2{
+	font-size: 1.1rem;
+	line-height: 1.2rem;
+	padding-bottom: 0rem;
+	margin-top: 2rem;
+	margin-bottom: 0;
+}
+
+/* Contact Form */
+
+.OurAddress h3{
+	font-style: italic;
+	color: #797979;
+	color: #366373;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
+	margin-top: 2rem;
+	margin-bottom: .5rem;
+}
+
+.OurAddress a{
+	font-size:  .9rem;
+}
+
+.contactForm{
+	display: block;
+	clear: both;
+}
+.contactForm label{
+	width: 12rem;
+	clear: both;
+	display: block;
+	float: left;
+} 
+
+.contactForm input{
+	width: 12rem;
+	clear: both;
+	display: block;
+	float: left;
+}
+
+.contactForm textarea{
+	width:20rem;
+	min-height: 5rem;
+}
+
+.contactForm select {
+
+	font-size: 0.75rem;
+	/*border: 1px solid #45C0BF;*/
+ 	color: #555;
+	padding: .4rem .4rem .4rem .7rem;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    font: normal 14px/14px Arial, Helvetica, sans-serif;
+
+	clear: both;
+	padding-left: 0;
+	margin-left: 0;
+	display: block;
+	float: left;
+}
+
+#inquiryButton{
+	clear: both;
+	display: block;
+	float: left;
+	width: 15rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+/* Footer */
 
 #footer{
 	clear: both;
