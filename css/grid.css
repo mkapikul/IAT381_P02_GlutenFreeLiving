@@ -66,6 +66,11 @@ html, body {
 	width: 15%;
 }
 
+@media (max-width: 810px){
+	.col-1of4{
+		width: 33.33%;
+	}
+}
 
 /* iPad and other tablets using 1024x768px resolution - resize */
 
@@ -89,10 +94,6 @@ html, body {
 	.col-1of6 {
 		width: 33%;
 		border-left: 2px solid white ;
-	}
-
-	.col-1of4{
-		width:33.33%;
 	}
 
 	.navigation {
@@ -231,6 +232,11 @@ html, body {
 	}
 }
 
+@media (max-width: 610px){
+	.col-1of4{
+		width: 50%;
+	}
+
 @media (max-width: 664px) {
 
 	#pageContent h1{
@@ -299,10 +305,6 @@ html, body {
 /* mobile devices resolution - resize */
 
 @media (max-width: 495px) {
-
-	.col-1of4{
-		width: 50%;
-	}
 
 	.col-2of3 {
 	width: 100%;

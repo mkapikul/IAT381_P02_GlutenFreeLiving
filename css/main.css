@@ -149,15 +149,25 @@ form input:hover, form textarea:hover {
 }
 
 /* Experimental section begins &&&&&&&&&&&&&&&&&&&&&&&& */
+img.allProductsImg{
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+	padding: 0rem;
+	/*border-bottom: 3px solid #45C0BF;
+	border-top: 3px solid #45C0BF;*/
+}
+
 
 .singleRecipeImg {
 	margin-top: 1.5rem;
 }
 
 .singleRecipeImg ul{
-	list-style-type: none;
+	/*list-style-type: none;*/
 	font-size: 0.9rem;
-	padding-left: 0;
+	padding-left: 1rem;
 }
 
 .singleRecipeImg ul li{
@@ -537,9 +547,11 @@ img.align-right{
 /* Content Pages finishes */ 
 
 #leftSidebar{
+	display: inline-block;
+	float: left;
 	margin: 0;
 	margin-bottom: 2rem;
-	width: 25%;
+	width: 24%;
 	padding-top: 2rem;
 	/*padding-left: 0.2rem;*/
 	/*border: 1px solid #eee;*/
@@ -635,6 +647,8 @@ nav.sideNav a:active{
 
 
 #pageContent{
+	display: inline-block;
+	float: left;
 	margin: 0 auto;
 	margin-bottom: 0.5rem;
 	width: 74%;
@@ -660,6 +674,8 @@ article.multiProduct{
 	/*border: 1px solid #eee;*/
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
+	margin-bottom: 1rem;
+
 }
 
 article.multiProduct h3{
@@ -710,7 +726,6 @@ img.productImg{
 	padding: 0rem;
 	border-bottom: 3px solid #45C0BF;
 	border-top: 3px solid #45C0BF;
-
 }
 
 img.recipeImg {
