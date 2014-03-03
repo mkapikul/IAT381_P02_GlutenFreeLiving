@@ -149,93 +149,217 @@ form input:hover, form textarea:hover {
 }
 
 /* Experimental section begins &&&&&&&&&&&&&&&&&&&&&&&& */
-img.allProductsImg{
-	display: block;
-	margin: 0 auto;
-	margin-top: 0.4rem;
-	margin-bottom: 0.4rem;
-	padding: 0rem;
-	/*border-bottom: 3px solid #45C0BF;
-	border-top: 3px solid #45C0BF;*/
+
+/* My Cart*/
+
+.mainPageProduct{
+	text-align: left;
 }
 
 
-.singleRecipeImg {
-	margin-top: 1.5rem;
+#orderPlaced{
+	margin-bottom: 3rem;
 }
 
-.singleRecipeImg ul{
-	/*list-style-type: none;*/
-	font-size: 0.9rem;
-	padding-left: 1rem;
+#orderPlaced p{
+	margin-bottom: 2rem;
 }
 
-.singleRecipeImg ul li{
-	padding-bottom: .3rem;
-}
-
-.singleRecipeImg img{
-	display: inline-block;
-	clear:both;
-}
-.singleRecipeImg h3{
-	margin: 0rem;
-	display:inline-block;
+#orderPlaced h3{
+	font-style: italic;
+	color: #797979;
 	color: #366373;
-}
-
-.singleRecipeImg h5{
-	font-size: .8rem;
-	margin-bottom: .3rem;
-}
-
-.recipeInstructions{
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
 
-.recipeInstructions h3{
-	margin: 0rem;
-	display:inline-block;
+.addressSummary ul, .billingSummary ul{
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 0.9rem;
+	margin-top: 0.2rem;
+}
+
+
+.addressSummary h3, .billingSummary h3{
+	font-size: 1rem;
 	color: #366373;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
-.buyIngredients{
-	margin-top: .8rem;
+.billingSummary{
+	margin-bottom: 3rem;
 }
 
-.recipeImg{
-	margin: 0 auto;
-}
-
-#recipeRating{
-	display: inline-block;	
-	margin: 0;
-	padding: 0;
-	padding-bottom: .7rem;
-}
-.multiRecipe h3{
-	font-size: .9rem;
-	text-align: center;
+#reviewIntroduction p{
 	margin-bottom: 0.2rem;
 }
 
-.multiRecipe p{
-	text-align: center;
+.billingAddress{
+	display: block;
+	clear: both;
+	padding-top: 1rem;
 }
 
-.multiRecipe h5{
-	text-align: center;
-	font-size: .7rem;
+.billingAddress p{
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
-.multiRecipe{
-	margin-bottom: 1.4rem; 
+.cartInstructions p{
+	font-size: .9rem;
 }
 
-.time{
-	font-size: .8rem;
+.cartInstructions p > strong{
+	color: #366373;
+}
+
+.cartInstructions{
+	margin-bottom: 3rem;
+}
+
+#cartProduct{
+	display: inline-block;
+	float: left;
+	width: 60%;
+	/*border: 1px solid #eee;*/
+}
+
+#cartProduct h3{
+	font-size: 1rem;
+	font-style: italic;
+	margin-top: 0;
+	color: #366373;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
+}
+
+#cartProduct h4{
+	font-size: 1rem;
+}
+
+#cartQty{
+	display: inline-block;
+	display: -moz-inline-stack;
+	vertical-align: top;
+	float: left;
+	width: 20%;
+	/*border: 1px solid #eee;*/
+}
+
+#cartQty h3{
+	font-size: 1rem;
+	font-style: italic;
+	margin-top: 0;
+	color: #366373;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
+}
+
+#cartCost{
+	display: inline-block;
+	display: -moz-inline-stack;
+	vertical-align: top;
+	float: left;
+	width: 20%;
+	margin-bottom: 1rem;
+}
+
+#cartCost h3{
+	font-size: 1rem;
+	font-style: italic;
+	margin-top: 0;
+	color: #366373;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
+}
+
+#cartCost h4{
+	font-size: 1rem;
 	color: #F39C12;
+}
+
+#cartItem{
+	display: inline-block;
+	display: -moz-inline-stack;
+	vertical-align: top;
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0rem;
+	width: 100%;
+	background-color: white;
+	-webkit-box-sizing: border-box;
+	-moz-box-siziing: border-box;
+	box-sizing: border-box;
+	/*border-bottom: 1px dashed #366373;*/
+}
+
+.cartItem:after{
+	clear: both;
+}
+#allItems{
+	display: inline-block;
+	vertical-align: top;
+	display: -moz-inline-stack;
+	float: left;
+	margin: 0;
+	padding: 0;
+	padding-top: 1rem;
+	margin-bottom: 0rem;
+	width: 100%;
+	background-color: white;
+	-webkit-box-sizing: border-box;
+	-moz-box-siziing: border-box;
+	box-sizing: border-box;
+	border-top: 1px dashed #366373;
+	/*border-bottom: 1px dashed #366373;*/
+
+}
+
+#subTotal{
+	display: inline-block;
+	display: -moz-inline-stack;
+	vertical-align: top;
+	float: left;
+	width: 20%;
+	text-align: left;
+	padding-right: 0rem;
+}
+
+#subTotal h3{
+	font-size: 1rem;
+	font-style: italic;
+	margin-top: 0;
+	color: #366373;
+	text-shadow: rgba(121,121,121,.2) 0 1px 0;
+}
+
+#buttons{
+	display: inline-block;
+	vertical-align: top;
+	display: -moz-inline-stack;
+	float: left;
+	margin: 0;
+	padding: 0;
+	padding-top: 1rem;
+	margin-bottom: 3rem;
+	width: 100%;
+	background-color: white;
+	-webkit-box-sizing: border-box;
+	-moz-box-siziing: border-box;
+	box-sizing: border-box;
+	/*border-top: 1px dashed #366373;*/
+}
+
+#UpdateQty{
+	margin: 0 auto;
+	width: 85%;
+}
+
+#Checkout{
+	margin: 0 auto;
+	width: 85%;
 }
 
 #light{
@@ -416,9 +540,10 @@ img.align-right{
 }
 
 .FeatProducts article{
-	text-align: center;
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+	text-align: left;
+	/*border-left: 1px solid  #45C0BF;*/
+
+	padding-left: .3rem;
 }
 
 .FeatRecipes{
@@ -448,7 +573,8 @@ img.align-right{
 }
 
 .BlogPosts article{
-	padding-left: .3rem;
+	padding-left: 1rem;
+	margin-bottom: 3rem;
 	line-height: 1rem;
 	border-left: 1px solid #45C0BF;
 }
@@ -469,13 +595,6 @@ img.align-right{
 .share{
 	margin: 0 auto;
 	margin-bottom: 2rem;
-}
-
-.blogPostArea hr{
-	border: 0;
-    height: 0;
-    border-top: 1px dashed #366373;
-
 }
 
 .imageSpan{
@@ -558,6 +677,10 @@ img.align-right{
 	background-color: white;
 	display: inline-block;
 	vertical-align: top;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-siziing: border-box;
+	box-sizing: border-box;
 }
 
 nav.sideNav{
@@ -655,10 +778,13 @@ nav.sideNav a:active{
 	padding-top: 2rem;
 	padding-left: 0.8rem;
 	/*border: 1px solid #eee;*/
-	min-height: 20rem;
+	/*min-height: 20rem;*/
 	background-color: white;
 	display: inline-block;
 	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-siziing: border-box;
+	box-sizing: border-box;
 }
 
 #pageContent h1{
@@ -716,6 +842,15 @@ article.multiProduct a:active{
   	-webkit-appearance: none;
   	-webkit-font-smoothing: antialiased;
   	text-rendering: optimizeLegibility;
+}
+img.allProductsImg{
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+	padding: 0rem;
+	/*border-bottom: 3px solid #45C0BF;
+	border-top: 3px solid #45C0BF;*/
 }
 
 img.productImg{
@@ -959,6 +1094,87 @@ form.productPrice {
 	margin-bottom: 0;
 }
 
+/*  Recipe Page*/
+
+.singleRecipeImg {
+	margin-top: 1.5rem;
+}
+
+.singleRecipeImg ul{
+	/*list-style-type: none;*/
+	font-size: 0.9rem;
+	padding-left: 1rem;
+}
+
+.singleRecipeImg ul li{
+	padding-bottom: .3rem;
+}
+
+.singleRecipeImg img{
+	display: inline-block;
+	clear:both;
+}
+.singleRecipeImg h3{
+	margin: 0rem;
+	display:inline-block;
+	color: #366373;
+}
+
+.singleRecipeImg h5{
+	font-size: .8rem;
+	margin-bottom: .3rem;
+}
+
+.recipeInstructions{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.recipeInstructions h3{
+	margin: 0rem;
+	display:inline-block;
+	color: #366373;
+}
+
+.buyIngredients{
+	margin-top: .8rem;
+}
+
+.recipeImg{
+	margin: 0 auto;
+}
+
+#recipeRating{
+	display: inline-block;	
+	margin: 0;
+	padding: 0;
+	padding-bottom: .7rem;
+}
+.multiRecipe h3{
+	font-size: .9rem;
+	text-align: center;
+	margin-bottom: 0.2rem;
+}
+
+.multiRecipe p{
+	text-align: center;
+}
+
+.multiRecipe h5{
+	text-align: center;
+	font-size: .7rem;
+}
+
+.multiRecipe{
+	margin-bottom: 1.4rem; 
+}
+
+.time{
+	font-size: .8rem;
+	color: #F39C12;
+}
+
+
 /* Contact Form */
 
 .OurAddress h3{
@@ -978,6 +1194,7 @@ form.productPrice {
 	display: block;
 	clear: both;
 }
+
 .contactForm label{
 	width: 12rem;
 	clear: both;

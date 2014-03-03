@@ -58,6 +58,10 @@ html, body {
 	margin-top: 0.5rem;
 }
 
+.col-1of4-home{
+	width: 25%;
+}
+
 .col-2-3rd {
 	width: 85%;
 }
@@ -75,6 +79,9 @@ html, body {
 /* iPad and other tablets using 1024x768px resolution - resize */
 
 @media (max-width: 768px) {
+	.col-1of3{
+		width: 100%;
+	}
 
 	.col-2of3{
 		width: 100%;
@@ -294,10 +301,6 @@ html, body {
 
 @media (max-width: 590px) {
 
-	.col-1of3{
-		width: 100%;
-	}
-
 	.col-2of3 {
 	width: 100%;
 	}
@@ -372,6 +375,10 @@ html, body {
 
 }
 
-
+@media (max-width: 399px){
+	.col-1of2 {
+	width: 100%;
+}
+}
 
 

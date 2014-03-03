@@ -19,7 +19,7 @@
 	<div id="container"> <!-- sets the width for all pages to 1024 -->	
 		<div id="top">
 			<div class="logo">
-				<a href="../index.html"><img alt="Gluten Free Living" src="../logo/Logo_Dark.png" width="100%"></a>
+				<a href="../index.html"><img alt="Gluten Free Living" src="../logo/Logo_Green.png" width="100%"></a>
 			</div>
 
 			<div class="navigation">
@@ -57,7 +57,7 @@
 					</div>
 
 					<div class="col-1of6">
-						<a href="index.html" id="My Cart"> My Cart <span id="cart_Item"> 0 </span></a>
+						<a href="index.html" id="My Cart"> My Cart <span id="cart_Item"> 1 </span></a>
 					</div>
 				</nav> <!-- Header navigation closed -->
 			</div> <!-- Navigation div closed -->
@@ -74,15 +74,79 @@
 <!-- Main Page content begins here -->
 
 		<div id="leftSidebar">
-			<div id="titleRow"><a href="index.html">My Cart <span id="cart_Item"> 0 </span></a></div>
+			<div id="titleRow"><a href="index.html">My Cart <span id="cart_Item"> 1 </span></a></div>
 			<nav class="sideNav">
 				<div id="Shipping"><a href="Shipping.html">Shipping Information</a></div>
 				<div id="Billing"><a href="Billing.html">Billing Information</a></div>
+				<div id="Summary"><a href="OrderSummary.html">Order Summary</a></div>
 			</nav>
 		</div> <!-- leftNav div closed -->
 
 		<div id="pageContent">
 			<h1>Billing Information</h1><hr>
+
+			<p>Please provide your <strong>Payment Information</strong>, we accept all major credit cards.</p>
+
+				<div class="billingInformation">
+					<form action="" method="post" class="contactForm">
+						<label> Name on Card
+			      			<input type="text" id="NameOnCard" name="NameOnCard">
+			      		</label>
+
+			      		<label> Card Number
+			      			<input type="text" id="CardNumber" name="CardNumber">
+			      		</label>
+
+			      		<label> Expration Date (mm / yyyy)
+			      			<input type="text" id="Month" name="Month" placeholder="(mm) / (yyyy)">
+			      		</label>
+		      		</form>
+	      		</div><!--billingInformation-->
+
+	      		<div class="billingAddress">
+	      			<p>Please provide <strong>Billing Address</strong>, if different from Shipping Address </p>
+
+		      		<form action="" method="post" class="contactForm">
+						<label> Full Name
+			      			<input type="text" id="FullName" name="FullName">
+			      		</label>
+
+			      		<label> Address Line1
+			      			<input type="text" id="AddressLine1" name="AddressLine1">
+			      		</label>
+
+			      		<label> Address Line2
+			      			<input type="text" id="AddressLine2" name="AddressLine2">
+			      		</label>
+
+			      		<label> City
+			      			<input type="text" id="City" name="City">
+			      		</label>
+
+			      		<label> State/Province/Region
+			      			<input type="text" id="State" name="State">
+			      		</label>
+
+			      		<label> Postal/ZIP Code
+			      			<input type="text" id="Postal" name="Postal">
+			      		</label>
+			      		
+
+			      		<label> Country
+			      			<select name="Canada">
+			      				<option value="Canada">Canada</option> 
+			      				<option value="UnitedStates">United States of America</option> 
+			      				</select>
+			      		</label>
+		      		</form>
+	      		</div><!--billingAddress-->
+
+	      		<div id="inquiryButton">
+				<a href="OrderSummary.html"><button class="AddToCart">Continue</button></a><h4>You can review this order before it's finlized.</h4>
+			</div><!-- inquiryButton -->
+
+
+
 		</div> <!-- pageContent div closed -->
 
 

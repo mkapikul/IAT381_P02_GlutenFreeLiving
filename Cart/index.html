@@ -19,7 +19,7 @@
 	<div id="container"> <!-- sets the width for all pages to 1024 -->	
 		<div id="top">
 			<div class="logo">
-				<a href="../index.html"><img alt="Gluten Free Living" src="../logo/Logo_Dark.png" width="100%"></a>
+				<a href="../index.html"><img alt="Gluten Free Living" src="../logo/Logo_Green.png" width="100%"></a>
 			</div>
 
 			<div class="navigation">
@@ -76,13 +76,65 @@
 		<div id="leftSidebar">
 			<div id="titleRow"><a href="index.html">My Cart <span id="cart_Item"> 0 </span></a></div>
 			<nav class="sideNav">
-				<div id="Shipping"><a href="Shipping.html">Shipping Information</a></div>
-				<div id="Billing"><a href="Billing.html">Billing Information</a></div>
+				<div id="Shipping"><a href="ShippingEmpty.html">Shipping Information</a></div>
+				<div id="Billing"><a href="BillingEmpty.html">Billing Information</a></div>
+				<div id="Summary"><a href="OrderSummaryEmpty.html">Order Summary</a></div>
 			</nav>
 		</div> <!-- leftNav div closed -->
 
 		<div id="pageContent">
 			<h1> My Cart </h1><hr>
+				<div class="cartInstructions">
+					<p>
+						Your Shopping Cartcontains the following items.
+					</p>	
+					<p>	
+						<strong>To change:</strong> the quantity of any items currently in your cart, enter the new value in the Qty column and click the "Update Quantities" button.
+					</p>
+					<p>
+						<strong>To remove:</strong> an item altogether, enter value "<strong>0</strong>" in the Qty column and click the "Update Quantities" button.
+					</p>
+					<p>
+						After clicking the "Checkout" button, we'll ask you for your billing and shipping information and compute your sales tax (if applicable) and shipping charges.
+					</p>
+				</div>	<!--cartInstructions-->
+
+				<div id="cartItem">
+					<article id="cartProduct">
+						<h3>Product:</h3>
+					</article><!--cartProduct-->
+
+					<article id="cartQty">
+						<h3>Qty:</h3>
+					</article><!--cartQty-->
+
+					<article id="cartCost">
+						<h3>Price:</h3>
+					</article><!--cartCost-->
+				</div><!--cartItem-->
+
+				<div id="allItems">
+
+					<article id="cartProduct">
+						<h3>Your Shopping Cart is Empty</h3>
+					</article><!--cartProduct-->
+
+					<article id="subTotal">
+						<h3></h3>
+					</article><!--subTotal-->
+
+					<article id="cartCost">
+						<h3></h3>
+					</article><!--cartCost-->
+				</div><!--allItems-->
+
+				<div id="buttons">
+					<div class="grid">
+								<a href="../Products/index.html"><button class="AddToCart"> Continue Shopping </button></a>
+					</div><!--grid-->
+				</div><!--buttons-->							
+
+
 		</div> <!-- pageContent div closed -->
 
 

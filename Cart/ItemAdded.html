@@ -83,63 +83,72 @@
 		</div> <!-- leftNav div closed -->
 
 		<div id="pageContent">
-			<h1> Shipping Information </h1><hr>
+			<h1> My Cart </h1><hr>
+				<div class="cartInstructions">
+					<p>
+						Your Shopping Cartcontains the following items.
+					</p>	
+					<p>	
+						<strong>To change:</strong> the quantity of any items currently in your cart, enter the new value in the Qty column and click the "Update Quantities" button.
+					</p>
+					<p>
+						<strong>To remove:</strong> an item altogether, enter value "<strong>0</strong>" in the Qty column and click the "Update Quantities" button.
+					</p>
+					<p>
+						After clicking the "Checkout" button, we'll ask you for your billing and shipping information and compute your sales tax (if applicable) and shipping charges.
+					</p>
+				</div>	<!--cartInstructions-->
 
-			<div class="shippingInstructions">
-				<p>To continue with <strong>"one-time"</strong> purchase,  please enter a shipping address below.</p>
-				<p>Existing customers, please <a href="#">Sign In</a>, or <a href="#">Create an Account</a> if you don't have one already - it's easy and more convinient way to shop online.</p>
-			</div><!--shippingInstructions-->
+				<div id="cartItem">
+					<article id="cartProduct">
+						<h3>Product:</h3>
+						<h4><a href="../Products/SingleProduct.html">Artisan Dessert Choco-Nut Truffles</a></h4>
+					</article><!--cartProduct-->
 
-			<div class="shippingInfo">
-				<form action="" method="post" class="contactForm">
-					<label> Full Name
-		      			<input type="text" id="FullName" name="FullName">
-		      		</label>
+					<article id="cartQty">
+						<h3>Qty:</h3>
+						<form>
+							<input type="text" id="qty" name="qty" size="3" placeholder="1">
+						</form>
+					</article><!--cartQty-->
 
-		      		<label> Address Line1
-		      			<input type="text" id="AddressLine1" name="AddressLine1">
-		      		</label>
+					<article id="cartCost">
+						<h3>Price:</h3>
+						<h4> $6.99</h4>
+					</article><!--cartCost-->
+				</div><!--cartItem-->
 
-		      		<label> Address Line2
-		      			<input type="text" id="AddressLine2" name="AddressLine2">
-		      		</label>
+				<div id="allItems">
 
-		      		<label> City
-		      			<input type="text" id="City" name="City">
-		      		</label>
+					<article id="cartProduct">
+						<h4></h4>
+					</article><!--cartProduct-->
 
-		      		<label> State/Province/Region
-		      			<input type="text" id="State" name="State">
-		      		</label>
+					<article id="subTotal">
+						<h3> Sub Total:</h3>
+					</article><!--subTotal-->
 
-		      		<label> Postal/ZIP Code
-		      			<input type="text" id="Postal" name="Postal">
-		      		</label>
-		      		
+					<article id="cartCost">
+						<h3> $6.99</h3>
+					</article><!--cartCost-->
+				</div><!--allItems-->
 
-		      		<label> Country
-		      			<select name="Canada">
-		      				<option value="Canada">Canada</option> 
-		      				<option value="UnitedStates">United States of America</option> 
-		      				</select>
-		      		</label>
+				<div id="buttons">
+					<div class="grid">
+						<div class="col-1of2">
+							<div id="UpdateQty">
+								<button class="AddToCart"> Update Quantities </button>
+							</div><!--UpdateQty-->
+						</div><!--col-1of2-->
 
-		      		<label> Choose your shipping options
-		      			<select name="Standard">
-		      				<option value="Standard">Standard (3-5 Business days) Free</option> 
-		      				<option value="Expedited">Expedited (1-3 business days) $4.99</option> 
-		      				</select>
-		      		</label>
+						<div class="col-1of2">
+							<div id="Checkout">
+								<a href="Shipping.html"><button class="AddToCart"> Checkout </button></a>
+							</div><!--Checkout-->
+						</div><!--col-1of2-->
+					</div><!--grid-->
+				</div><!--buttons-->
 
-		      		<label> Special Requests, or Comments
-		      			<textarea name="comments" id="additionalComments"></textarea>
-		      		</label>
-	      		</form>
-			</div> <!--shippingInfo-->
-
-			<div id="inquiryButton">
-				<a href="Billing.html"><button class="AddToCart"> Continue to Billing </button></a>
-			</div><!-- inquiryButton -->
 
 		</div> <!-- pageContent div closed -->
 
