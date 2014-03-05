@@ -70,6 +70,14 @@ html, body {
 	width: 15%;
 }
 
+.col-blogMain{
+	width: 70%;
+}
+
+.col-blogSide{
+	width: 30%;
+}
+
 @media (max-width: 810px){
 	.col-1of4{
 		width: 33.33%;
@@ -244,6 +252,20 @@ html, body {
 		width: 50%;
 	}
 
+	.col-blogMain{
+	width: 100%;
+	}
+
+	.col-blogSide{
+	width: 100%;
+	}
+
+	.blogSide{
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 2rem;
+	}
+
 @media (max-width: 664px) {
 
 	#pageContent h1{
@@ -315,6 +337,10 @@ html, body {
 
 	.col-1of3 {
 		width: 100%;
+	}
+
+	.col-1of4-home{
+		width: 50%;
 	}
 
 	.banner {
