@@ -343,6 +343,11 @@ html, body {
 		width: 50%;
 	}
 
+	.mainPageProduct{
+		position: relative;
+		left: 20%;
+	}
+
 	.banner {
 		display: none;
 	}
