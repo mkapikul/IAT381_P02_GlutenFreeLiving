@@ -318,7 +318,7 @@ nav.grid a:active{
 	float: left;
 }
 
-#mpProdRating{
+.mpProdRating{
 	clear: both;
 	display: block;
 	float: left;
