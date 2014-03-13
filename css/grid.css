@@ -18,7 +18,7 @@ html, body {
 
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
-	-moz-box-siziing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 } 
 
@@ -275,6 +275,12 @@ html, body {
 }
 
 @media (max-width: 610px){
+
+	.col-1of6 {
+		width: 33%;
+		border-left: 2px solid white ;
+	}
+
 	.col-1of4{
 		width: 50%;
 	}
@@ -327,6 +333,15 @@ html, body {
 /* mobile devices resolution - resize */
 
 @media (max-width: 495px) {
+
+	#top{
+		padding-bottom: .1rem;
+	}
+
+	.col-1of6 {
+		width: 33%;
+		border-left: 2px solid white ;
+	}
 
 	.nutritionLabel img{
 	float: left;
@@ -416,6 +431,12 @@ html, body {
 }
 
 @media (max-width: 399px){
+
+	.col-1of6 {
+		width: 33%;
+		border-left: 2px solid white ;
+	}
+
 	.col-1of2 {
 	width: 100%;
 }

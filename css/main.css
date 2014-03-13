@@ -166,8 +166,8 @@ form input:hover, form textarea:hover {
 
 #top{
 	width: 100%;
-	min-height: 90px;
-	margin-bottom: 0.3rem;
+	/*min-height: 90px;*/
+	margin-bottom: 0.2rem;
 	padding: 0rem;
 	background: white;
 	border-bottom: solid 4px #45C0BF;
