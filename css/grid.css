@@ -328,6 +328,12 @@ html, body {
 
 @media (max-width: 495px) {
 
+	.nutritionLabel img{
+	float: left;
+	margin-top: -1rem;
+	margin-bottom: 1rem;
+	}
+
 	.col-2of3 {
 	width: 100%;
 	}
