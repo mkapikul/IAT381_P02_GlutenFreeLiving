@@ -144,15 +144,20 @@ html, body {
 	}
 
 	#altLogo{
-	color: #F39C12;
-	width: 32.5%;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	background-color: white;
-	border: none;
+		display: inline-block;
+		float: left;
+		color: #F39C12;
+		background-color: #fdebce;*/
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+		border-top: solid 2px white; 
+		border-opacity: 0.7;
+		text-align: center;
+		font-size: 1rem;
+		text-decoration: none;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
 	}
 
 	#altLogo:hover{
@@ -178,16 +183,24 @@ html, body {
 	}
 
 	#signUp {
-		color: #F39C12;
-		width: 33%;
-		text-align: center;
-		text-decoration: none;
 		display: inline-block;
+		float: left;
+		color: #F39C12;
+		background-color: #f8c26e;
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+		border-top: solid 2px white; 
+		border-opacity: 0.7;
+		text-align: center;
+		font-size: 1rem;
+		text-decoration: none;
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		background-color: white;
-		border: none;
+		background-color: #fdebce;
 	}
+
+	
 
 	#signUp:hover{
 		background-color: #F39C12;
@@ -211,18 +224,22 @@ html, body {
   		text-decoration: none;
 	}
 
-
-
 	#logIn {
-		color: #F39C12;
-		width: 32.5%;
-		text-align: center;
-		text-decoration: none;
 		display: inline-block;
+		float: left;
+		color: #F39C12;
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+		border-top: solid 2px white; 
+		border-opacity: 0.7;
+		text-align: center;
+		font-size: 1rem;
+		text-decoration: none;
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		background-color: white;
-		border: none;
+		background-color: #fdebce;	
+
 	}
 
 	 #logIn:hover{
@@ -239,6 +256,16 @@ html, body {
 	  	-webkit-appearance: none;
 	  	-webkit-font-smoothing: antialiased;
 	  	text-rendering: optimizeLegibility;
+	}
+
+	#altLogo:after{
+		clear: both;
+	}
+	#signUp:after{
+		clear: both;
+	}
+	#logIn:after{
+		clear: both;
 	}
 
 	.mainPgRecipe img{
@@ -267,36 +294,6 @@ html, body {
 	}
 
 @media (max-width: 664px) {
-
-	#pageContent h1{
-		line-height: 1.6rem;
-	}
-
-	#altLogo{
-		width: 100%;
-		width: 32%;
-		border-bottom: solid 1px #F39C12;
-		border-bottom: solid 1px white ;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-	}
-
-	#signUp {
-		width: 100%;
-		width: 33%;
-		border-bottom: solid 1px #F39C12 ;
-		border-bottom: solid 1px white ;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-
-	}
-
-	#logIn {
-		width: 100%;
-		width: 32%;
-		padding-top: 0.2rem;
-		padding-bottom: 0.2rem;
-	}
 
 	.leftNav{
 		width: 100%;
@@ -358,6 +355,12 @@ html, body {
 		padding-bottom: 0.3rem;
 	}
 
+	#altLogo{
+		font-size: .9rem;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+	}
+
 	#signUp{
 		font-size: .9rem;
 		padding-top: 0.2rem;
@@ -397,7 +400,7 @@ html, body {
 
 	#pageContent h1{
 		margin-top: 0;
-		line-height: 0.5rem;
+		line-height: 1.2rem;
 	}
 
 	.FeatRecipes{
