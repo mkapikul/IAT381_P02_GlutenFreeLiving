@@ -552,7 +552,7 @@ img.align-right{
 	display: inline-block;
 	float: left;
 	margin: 0;
-	margin-bottom: 2rem;
+	margin-bottom: 0rem;
 	width: 24%;
 	padding-top: 2rem;
 	/*padding-left: 0.2rem;*/
@@ -620,20 +620,23 @@ nav.sideNav a:active{
 #titleRow {
 	margin: 0 auto;
 	width: 90%;
-	padding-left: .9rem;
+	/*padding-left: .9rem;*/
 	padding-top: 0.3rem;
 	padding-bottom: 0.3rem;
 	background-color: #45C0BF;
 	text-align: left;
 	color: #ffffff;
 	text-decoration: none;
-	padding-left: 1rem;
+	/*padding-left: 1rem;*/
 	border-bottom: 2px solid white;
 
 }
 
 #titleRow a {
+	display: block;
+	width: 100%;
 	text-align: left;
+	padding-left: 1rem;
 	color: #ffffff;
 	text-decoration: none;
 }
